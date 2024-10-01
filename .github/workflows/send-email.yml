@@ -1,4 +1,4 @@
-name: Send Email on Push
+name: Send Email on API Call
 
 on:
   workflow_dispatch:  # Allows manual or API-triggered runs

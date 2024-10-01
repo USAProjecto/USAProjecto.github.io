@@ -3,8 +3,8 @@
 $toEmail = getenv('TO_EMAIL'); // Use environment variable for recipient
 $subject = 'New Push to Main Branch';
 $message = 'A new commit has been pushed to the main branch.';
-$headers = 'From: sender@example.com' . "\r\n" . // Change to a valid sender email
-           'Reply-To: sender@example.com' . "\r\n" . // Change as needed
+$headers = 'From: shmmch@gmail.com' . "\r\n" . // Change to a valid sender email
+           'Reply-To: shmmch@gmail.com' . "\r\n" . // Change as needed
            'X-Mailer: PHP/' . phpversion();
 
 // Send email using PHP mail function
